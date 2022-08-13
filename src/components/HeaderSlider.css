@@ -1,0 +1,44 @@
+.header-slider-container {
+    /* background-color: rgba(255, 0, 0, 0.731); */
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    overflow: hidden;
+    /* background-color: rgb(120, 120, 120); */
+}
+
+.header-slide {
+    opacity: 0;
+    transition: 1s ease-in-out;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.header-slide-active {
+    opacity: 1;
+
+}
+
+.header-slide img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+    
+}
+
+.slider-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 1;
+    opacity: 0.8;
+}
